@@ -71,6 +71,9 @@ dependencies {
     testRuntime 'org.seleniumhq.selenium:selenium-htmlunit-driver:2.44.0'
 
     console "org.grails:grails-console"
+
+    compile "org.grails.plugins:grooscript:1.1.2"
+    compile "org.grails.plugins:grails-spring-websocket:2.1.0"
 }
 
 task wrapper(type: Wrapper) {
